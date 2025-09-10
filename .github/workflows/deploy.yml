@@ -2,7 +2,7 @@ name: Deploy SvelteKit to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]  # ou "master" selon ta branche par défaut
+    branches: [ "main" ]
 
 permissions:
   contents: write
