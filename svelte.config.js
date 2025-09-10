@@ -1,23 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static';
 
 const dev = process.argv.includes('dev');
 const base = dev ? '' : '/porfolio';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://svelte.dev/docs/kit/integrations
-	// for more information about preprocessors
-	preprocess: vitePreprocess(),
-
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html' // utile si tu as des routes CSR
-		}),
-		paths: { base },
-		prerender: { entries: ['*'] } // tout en statique si possible
+		adapter: adapter(),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/portfolio-Symeon_Vachot' : ''
+		}
 	}
 };
 export default config;
