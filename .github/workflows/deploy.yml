@@ -4,6 +4,9 @@ on:
   push:
     branches: [ "main" ]  # ou "master" selon ta branche par défaut
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
