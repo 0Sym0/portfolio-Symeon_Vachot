@@ -26,13 +26,13 @@
         <h3 class="text-center p-3">Je suis Syméon Vachot, futur développeur informatique.</h3>
 <!--        <p>Vous ne vous êtes pas retrouvés sur mon portfolio par hasard, alors commencons au plus vite !<br>-->
         <p>Réorienté depuis peu au sein du BTS SIO de l'Institution des Chartreux, j'aspire à devenir développeur.
-        Je présente ici mes différents créations et travaux, mon parcours, mes passions,
+        Je présente ici mes différentes créations et travaux, mon parcours, mes passions...
         </p>
     </div>
 </div>
 
 <p class="glass section bottomSections text-center p-3">
-    Découvrez mon <a href="formation">parcours de vie</a>, mes <a href="realisations">réalisations académiques ou personnelles</a>, mes <a href="competences">compétences</a> et d'autres sections pour me connaitre davantage !<br>
+    Découvrez mon <a href="formation">parcours académique</a>, mes <a href="realisations">réalisations académiques ou personnelles</a>, mes <a href="competences">compétences</a> et d'autres sections pour me connaitre davantage !<br>
     Bonne visite !
 </p>
 

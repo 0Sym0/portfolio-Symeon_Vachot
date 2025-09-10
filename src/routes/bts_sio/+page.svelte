@@ -22,13 +22,13 @@
 
         const rows = [
         { type: 'section', label: 'Projets personnels' },
-        { type: 'row', label: "Développement du site web Au Mont Dieu", values: [false, true, true, false, false, true] },
+        { type: 'row', label: "Développement du site web Au Mont Dieu", values: [false, true, false, false, false, false] },
         { type: 'section', label: 'Projets en cours de formation' },
         { type: 'row', label: "Dossier de certification", values: [false, false, false, false, false, true] },
-        { type: 'row', label: "Développement de présence en ligne", values: [false, false, true, true, false, false] },
-        { type: 'row', label: "Développement de l'application ResAppli", values: [false, true, false, true, true, false] },
+        { type: 'row', label: "Développement de présence en ligne", values: [false, false, true, false, false, false] },
+        { type: 'row', label: "Développement de l'application ResAppli", values: [true, false, false, true, false, false] },
         { type: 'section', label: 'Projets durant le stage de première année' },
-        { type: 'row', label: "Application web npsa-ng", values: [false, true, false, true, true, false] }
+        { type: 'row', label: "Application web npsa-ng", values: [false, false, false, false, true, false] }
         // { type: 'section', label: 'Projets durant le stage de seconde année' }
         ]
 </script>

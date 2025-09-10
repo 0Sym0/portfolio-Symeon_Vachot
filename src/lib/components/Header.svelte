@@ -32,9 +32,9 @@
                 </ul>
 
                 <div class="d-flex align-items-center">
-                <button id="search-btn" class="btn btn-link text-light" aria-label="Rechercher">
-                    <i class="bi bi-search"></i>
-                </button>
+<!--                <button id="search-btn" class="btn btn-link text-light" aria-label="Rechercher">-->
+<!--                    <i class="bi bi-search"></i>-->
+<!--                </button>-->
                 <button id="dark-toggle" class="btn btn-link text-light" aria-label="Activer/Désactiver le mode sombre">
                     <i class="bi bi-moon"></i>
                 </button>

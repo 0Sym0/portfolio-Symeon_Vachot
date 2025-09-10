@@ -17,7 +17,7 @@
 <section class="glass section topSections" id="competences">
     <h1 class=" section topSections w-100 my-4">Compétences</h1>
     <div class="d-grid p-4" style="grid-template-columns: repeat(20, 1fr); grid-template-rows: repeat(20, 1fr);">
-        <div class="glass section leftSections d-flex justify-content-around flex-column w-100 p-3" style=" grid-row:1/9; grid-column:1/12;">
+        <div class="glass section topSections d-flex justify-content-around flex-column w-100 p-3" style=" grid-row:1/9; grid-column:1/12;">
             <h2>Web</h2>
             <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-3">
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="glass section rightSections d-flex justify-content-around flex-column w-100 p-3" style=" grid-row:16/21; grid-column:9/21;">
+        <div class="glass section bottomSections d-flex justify-content-around flex-column w-100 p-3" style=" grid-row:16/21; grid-column:9/21;">
             <h2>Autres</h2>
             <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-3">
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
