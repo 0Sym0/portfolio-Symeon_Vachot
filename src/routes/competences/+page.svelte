@@ -1,5 +1,6 @@
 <script>
-    import {onMount} from "svelte";
+    import {onMount} from "svelte"
+    import {base} from "$app/paths"
 
     onMount(() => {
 
@@ -21,23 +22,23 @@
             <h2>Web</h2>
             <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-3">
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/laravel.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/laravel.png" width="30" height="30">
                     <span>Laravel</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/svelte.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/svelte.png" width="30" height="30">
                     <span>Svelte</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/figma.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/figma.png" width="30" height="30">
                     <span>Figma</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/bootstrap.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/bootstrap.png" width="30" height="30">
                     <span>Boostrap</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/tailwind_CSS.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/tailwind_CSS.png" width="30" height="30">
                     <span>Tailwind CSS</span>
                 </div>
             </div>
@@ -46,15 +47,15 @@
             <h2>Programmation</h2>
             <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-3">
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/PHP.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/PHP.png" width="30" height="30">
                     <span>PHP</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/python.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/python.png" width="30" height="30">
                     <span>Python</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/c-sharp.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/c-sharp.png" width="30" height="30">
                     <span>C#</span>
                 </div>
             </div>
@@ -63,15 +64,15 @@
             <h2>DevOps</h2>
             <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-3">
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/docker.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/docker.png" width="30" height="30">
                     <span>Docker</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/gitHub.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/gitHub.png" width="30" height="30">
                     <span>Github</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
-                    <img src="/logoCompetences/gitLab.png" width="30" height="30">
+                    <img src="{base}/logoCompetences/gitLab.png" width="30" height="30">
                     <span>GitLab</span>
                 </div>
             </div>
