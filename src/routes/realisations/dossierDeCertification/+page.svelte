@@ -1,5 +1,6 @@
 <script>
-    import {onMount} from "svelte";
+    import {onMount} from "svelte"
+    import {base} from "$app/paths"
 
     onMount(() => {
 
@@ -27,7 +28,7 @@
 <h2 class="mb-4">Dossier de certification</h2>
 <div class="d-flex align-items-center justify-content-center flex-rows gap-3">
     <div class="imagesProjets section leftSections d-flex align-items-center justify-content-center flex-column w-50 gap-5">
-        <img src={tableauImages[indexActuel]} class="w-100 glass" />
+        <img src={base}{tableauImages[indexActuel]} class="w-100 glass" />
         {#if tableauImages.length > 1}
             <div class="section bottomSections d-flex align-items-center justify-content-center flex-rows gap-3">
                 {#each tableauImages as img, i}

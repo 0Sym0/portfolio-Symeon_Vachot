@@ -1,5 +1,6 @@
 <script>
     import {onMount } from "svelte"
+    import {base} from "$app/paths";
 
     onMount(() => {
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -22,13 +23,13 @@
         <div class="container-fluid">
             <div class="d-flex justify-content-between collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="/">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="/formation">Formation</a></li>
-                <li class="nav-item"><a class="nav-link" href="/competences">Compétences techniques</a></li>
-                <li class="nav-item"><a class="nav-link" href="/realisations">Réalisations</a></li>
-                <li class="nav-item"><a class="nav-link" href="/bts_sio">BTS SIO</a></li>
-<!--                <li class="nav-item"><a class="nav-link" href="/veille">Veille Technologique</a></li>-->
-<!--                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="{base}/">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="{base}/formation">Formation</a></li>
+                <li class="nav-item"><a class="nav-link" href="{base}/competences">Compétences techniques</a></li>
+                <li class="nav-item"><a class="nav-link" href="{base}/realisations">Réalisations</a></li>
+                <li class="nav-item"><a class="nav-link" href="{base}/bts_sio">BTS SIO</a></li>
+<!--                <li class="nav-item"><a class="nav-link" href="{base}/veille">Veille Technologique</a></li>-->
+<!--                <li class="nav-item"><a class="nav-link" href="{base}/contact">Contact</a></li>-->
                 </ul>
 
                 <div class="d-flex align-items-center">
