@@ -23,13 +23,13 @@
 
         const rows = [
         { type: 'section', label: 'Projets personnels' },
-        { type: 'row', label: "Développement du site web Au Mont Dieu", values: [false, true, false, false, false, false] },
+        { type: 'row', label: "Développement du site web Au Mont Dieu", url: "/preuves/Festival_AuMontDieu.pdf", values: [false, true, false, false, false, false] },
         { type: 'section', label: 'Projets en cours de formation' },
-        { type: 'row', label: "Dossier de certification", values: [false, false, false, false, false, true] },
-        { type: 'row', label: "Développement de présence en ligne", values: [false, false, true, false, false, false] },
-        { type: 'row', label: "Développement de l'application ResAppli", values: [true, false, false, true, false, false] },
+        { type: 'row', label: "Dossier de certification", url: "/preuves/DossierCertification.pdf", values: [false, false, false, false, false, true] },
+        { type: 'row', label: "Développement de présence en ligne", url: "/preuves/PresenceEnLigne_Immersicorp.pdf", values: [false, false, true, false, false, false] },
+        { type: 'row', label: "Développement de l'application ResAppli", url: "/preuves/Application_ResAppli.pdf", values: [true, false, false, true, false, false] },
         { type: 'section', label: 'Projets durant le stage de première année' },
-        { type: 'row', label: "Application web npsa-ng", values: [false, false, false, false, true, false] }
+        { type: 'row', label: "Application web npsa-ng", url: "/preuves/Application_NPSA-NG.pdf", values: [false, false, false, false, true, false] }
         // { type: 'section', label: 'Projets durant le stage de seconde année' }
         ]
 </script>
@@ -53,7 +53,13 @@
                 </tr>
             {:else}
                 <tr>
-                    <th scope="row" class="fontEffect p-1">{row.label}</th>
+                    <th scope="row" class="fontEffect p-1">
+                        {#if row.url}
+                            <a title="Lien vers la preuve" target="_blank" href={base}{row.url}>{row.label}</a>
+                        {:else}
+                            {row.label}
+                        {/if}
+                    </th>
                     {#each row.values as value}
                         <td class="fw-bold">{value ? 'X' : ''}</td>
                     {/each}
@@ -62,6 +68,7 @@
         {/each}
         </tbody>
     </table>
+    <a class="glass section bottomSections text-center p-1 mt-3" href="/preuves/E5%20-%20Tableau%20de%20synthèse2.pdf" target="_blank" style="width: 300px;">Grille de compétences officielle</a>
 </section>
 
 <style>
