@@ -68,7 +68,7 @@
         {/each}
         </tbody>
     </table>
-    <a class="glass section bottomSections text-center p-1 mt-3" href="/preuves/E5%20-%20Tableau%20de%20synthèse2.pdf" target="_blank" style="width: 300px;">Grille de compétences officielle</a>
+    <a class="glass section bottomSections text-center p-1 mt-3" href="/preuves/tableauSyntheseOfficielle.pdf" target="_blank" style="width: 300px;">Grille de compétences officielle</a>
 </section>
 
 <style>
