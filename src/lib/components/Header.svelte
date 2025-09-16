@@ -19,7 +19,7 @@
 </script>
 
 <header class="container glass d-flex align-items-center justify-content-center m-3">
-    
+
     <nav class="navbar navbar-expand-lg w-100">
         <div class="container-fluid">
             <div class="d-flex justify-content-between collapse navbar-collapse" id="navbarNav">
