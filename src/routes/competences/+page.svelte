@@ -30,6 +30,10 @@
                     <span>Svelte</span>
                 </div>
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
+                    <img src="{base}/logoCompetences/angular.png" width="30" height="30">
+                    <span>Angular</span>
+                </div>
+                <div class="glass element d-flex align-items-center justify-content-center gap-2">
                     <img src="{base}/logoCompetences/figma.png" width="30" height="30">
                     <span>Figma</span>
                 </div>
@@ -57,6 +61,14 @@
                 <div class="glass element d-flex align-items-center justify-content-center gap-2">
                     <img src="{base}/logoCompetences/c-sharp.png" width="30" height="30">
                     <span>C#</span>
+                </div>
+                <div class="glass element d-flex align-items-center justify-content-center gap-2">
+                    <img src="{base}/logoCompetences/java.png" width="30" height="30">
+                    <span>Java</span>
+                </div>
+                <div class="glass element d-flex align-items-center justify-content-center gap-2">
+                    <img src="{base}/logoCompetences/spring-boot.png" width="30" height="30">
+                    <span>Spring Boot</span>
                 </div>
             </div>
         </div>

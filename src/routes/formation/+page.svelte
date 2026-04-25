@@ -14,15 +14,21 @@
 </script>
 <section class="glass section topSections my-4 p-4">
     <h1 class="mb-4">Parcours académique</h1>
-    <div class="d-grid px-3 column-gap-5 row-gap-3" style="grid-template-columns: 1fr 10px 1fr; grid-template-rows: repeat(3, auto);">
-        <div class="glass section leftSections p-3 mx-auto" style=" grid-row:1/2; grid-column:1/2;">
+    <div class="d-grid px-3 column-gap-5 row-gap-3" style="grid-template-columns: 1fr 10px 1fr; grid-template-rows: repeat(4, auto);">
+        <div class="glass section leftSections p-3 mx-auto" style="grid-row:1/2; grid-column:1/2;">
+            <h2>Ingénieur ICS</h2>
+            <h3>Informatique et Cybersécurité</h3>
+            <p>Poursuite du cursus du BTS SIO. Formation en cybersécurité, tratement de données et DevOps. </p>
+            <i class="mt-1">CPE Lyon - Villeurbanne (69), France</i>
+        </div>
+        <div class="glass section rightSections p-3 mx-auto" style="grid-row:2/3; grid-column:3/4;">
             <h2>BTS SIO</h2>
             <h3>Service Informatique aux Organisation</h3>
-            <p>Conçu comme une classe préparatoire au diplôme d’Ingénieur Informatique et Cybersécurité.</p>
+            <p>BTS conçu comme une classe préparatoire au diplôme d’Ingénieur Informatique et Cybersécurité.</p>
             <p>Spécialisé en <b>SLAM</b> (<b>S</b>olutions <b>L</b>ogicielles et <b>A</b>pplications <b>M</b>étiers)</p>
             <i class="mt-1">Institution des Chartreux - Lyon 1 (69), France</i>
         </div>
-        <div class="glass section rightSections p-3 mx-auto" style=" grid-row:2/3; grid-column:3/4;">
+        <div class="glass section leftSections p-3 mx-auto" style=" grid-row:3/4; grid-column:1/2;">
             <h2>BUT HSE</h2>
             <h3>Hygiène Sécurité Environnement</h3>
             <p>Principes de prévention et de protection des salariés en entreprise,
@@ -32,7 +38,7 @@
             </p>
             <i class="mt-1">IUT Lumière Lyon 2 - Bron (69), France</i>
         </div>
-        <div class="glass section leftSections p-3 mx-auto" style=" grid-row:3/4; grid-column:1/2;">
+        <div class="glass section rightSections p-3 mx-auto" style=" grid-row:4/5; grid-column:3/4;">
             <h2>Baccalauréat général</h2>
             <p>Profil pluridisciplinaire avec les spécialités :<p>
             <ul>
@@ -42,18 +48,22 @@
             </ul>
             <i class="mt-1">Notre Dame de la Galaure - Saint Bonnet de Galaure (26), France</i>
         </div>
-        <div class="glass section bottomSections" style="grid-row:1/4; grid-column:2/3; padding:0;"></div>
-        <div class="section bottomSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:1/2; grid-column:2/3;">
+        <div class="glass section bottomSections" style="grid-row:1/5; grid-column:2/3; padding:0;"></div>
+        <div class="section topSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:1/2; grid-column:2/3;">
+            <div class="evenement glass d-flex"></div>
+            <div class="dateEvenement text-center fst-italic">2026 - 2029</div>
+        </div>
+        <div class="section topSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:2/3; grid-column:2/3;">
             <div class="evenement glass d-flex"></div>
             <div class="dateEvenement text-center fst-italic">2024 - 2026</div>
         </div>
-        <div class="section bottomSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:2/3; grid-column:2/3;">
+        <div class="section topSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:3/4; grid-column:2/3;">
             <div class="evenement glass d-flex"></div>
             <div class="dateEvenement text-center fst-italic">2021 - 2024</div>
         </div>
-        <div class="section bottomSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:3/4; grid-column:2/3;">
+        <div class="section topSections d-flex align-items-center justify-content-center flex-column gap-3" style="grid-row:4/5; grid-column:2/3;">
             <div class="evenement glass d-flex"></div>
-            <div class="dateEvenement text-center fst-italic">2018-2021</div>
+            <div class="dateEvenement text-center fst-italic">2018 - 2021</div>
         </div>
     </div>
 </section>
@@ -68,7 +78,7 @@
 
     .dateEvenement {
         width:200px;
-        font-size: 0.75rem;
+        font-size: 1rem;
         text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
     }
 

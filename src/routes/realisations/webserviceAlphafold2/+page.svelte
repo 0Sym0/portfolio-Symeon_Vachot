@@ -1,9 +1,19 @@
 <script>
-    import {onMount} from "svelte"
-    import {base} from "$app/paths"
+    import {onMount} from "svelte";
+    import {base} from "$app/paths";
+
+    const tableauImages =
+        [
+            "/realisations/npsa-ng/NPSA-NG1.webp",
+            "/realisations/npsa-ng/NPSA-NG2.webp",
+            "/realisations/npsa-ng/NPSA-NG3.webp",
+            "/realisations/npsa-ng/NPSA-NG4.webp",
+            "/realisations/npsa-ng/NPSA-NG5.webp"
+        ]
+
+    let indexActuel = 0;
 
     onMount(() => {
-
         const sections = document.querySelectorAll('.section')
         sections.forEach(section => {
             setTimeout(() => {
@@ -11,18 +21,14 @@
             }, 100);
         });
 
+        // Précharger les images
+        tableauImages.forEach(chemin => {
+            const img = new Image();
+            img.src = `${base}${chemin}`;
+        });
     });
 
-    const tableauImages =
-        [
-            "/realisations/npsa-ng/NPSA-NG1.png",
-            "/realisations/npsa-ng/NPSA-NG2.png",
-            "/realisations/npsa-ng/NPSA-NG3.png",
-            "/realisations/npsa-ng/NPSA-NG4.png",
-            "/realisations/npsa-ng/NPSA-NG5.png"
-        ]
 
-    let indexActuel = 0;
     function allerA(i) {
         indexActuel = i;
     }

@@ -2,8 +2,16 @@
     import {onMount} from "svelte";
     import {base} from "$app/paths";
 
-    onMount(() => {
+    const tableauImages =
+        [
+            "/realisations/resappli/resappli1.webp",
+            "/realisations/resappli/resappli2.webp",
+            "/realisations/resappli/resappli3.webp"
+        ]
 
+    let indexActuel = 0;
+
+    onMount(() => {
         const sections = document.querySelectorAll('.section')
         sections.forEach(section => {
             setTimeout(() => {
@@ -11,16 +19,14 @@
             }, 100);
         });
 
+        // Précharger les images
+        tableauImages.forEach(chemin => {
+            const img = new Image();
+            img.src = `${base}${chemin}`;
+        });
     });
 
-    const tableauImages =
-        [
-            "/realisations/resappli/resappli1.png",
-            "/realisations/resappli/resappli2.png",
-            "/realisations/resappli/resappli3.png"
-        ]
 
-    let indexActuel = 0;
     function allerA(i) {
         indexActuel = i;
     }

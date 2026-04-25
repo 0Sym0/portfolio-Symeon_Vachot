@@ -18,21 +18,27 @@
         <h2 class="mb-4">Projets académiques</h2>
         <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-4">
             <a href="{base}/realisations/dossierDeCertification" class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
-               <h3>Dossier de certification</h3>
+               <h3 class="text-center">Dossier de certification</h3>
                 <div>
-                      <img src="{base}/realisations/certification/dossierDeCertification1.png" class="w-100">
+                      <img src="{base}/realisations/certification/dossierDeCertification1.webp" class="w-100">
                 </div>
             </a>
             <a href="{base}/realisations/presenceEnLigne" class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
-                <h3>Présence en ligne</h3>
+                <h3 class="text-center">Présence en ligne</h3>
                 <div>
-                    <img src="{base}/realisations/presenceEnLigne/immersicorp1.png" class="w-100">
+                    <img src="{base}/realisations/presenceEnLigne/immersicorp1.webp" class="w-100">
                 </div>
             </a>
             <a href="{base}/realisations/resAppli"  class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
-                <h3>Application ResAppli</h3>
+                <h3 class="text-center">Application ResAppli</h3>
                 <div>
-                    <img src="{base}/realisations/resappli/resappli1.png" class="w-100">
+                    <img src="{base}/realisations/resappli/resappli1.webp" class="w-100">
+                </div>
+            </a>
+            <a href="{base}/realisations/ppeWeb"  class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
+                <h3 class="text-center">PPE Web : SAAS de gestion d'établissement scolaire</h3>
+                <div>
+                    <img src="{base}/realisations/ppeWeb/ppeWeb3.webp" class="w-100">
                 </div>
             </a>
         </div>
@@ -41,15 +47,15 @@
         <h2 class="mb-4">Projets professionnels</h2>
         <div class="containerCompetences d-flex align-items-center justify-content-center flex-wrap flex-rows gap-4">
             <a href="{base}/realisations/auMontDieu"  class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
-                <h3>Au Mont Dieu</h3>
+                <h3 class="text-center">Au Mont Dieu</h3>
                 <div>
-                    <img src="{base}/realisations/auMontDieu/festivalAMD1.png" class="w-100">
+                    <img src="{base}/realisations/auMontDieu/festivalAMD1.webp" class="w-100">
                 </div>
             </a>
             <a href="{base}/realisations/webserviceAlphafold2" class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
-                <h3>Webservice NPSA-NG</h3>
+                <h3 class="text-center">Webservice NPSA-NG</h3>
                 <div>
-                    <img src="{base}/realisations/npsa-ng/NPSA-NG1.png" class="w-100">
+                    <img src="{base}/realisations/npsa-ng/NPSA-NG1.webp" class="w-100">
                 </div>
             </a>
         </div>

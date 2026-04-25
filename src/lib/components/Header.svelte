@@ -84,12 +84,8 @@
             <!-- <button id="search-btn" class="btn btn-link text-light" aria-label="Rechercher">-->
             <!-- <i class="bi bi-search"></i>-->
             <!-- </button>-->
-            <button class="btn btn-link text-light nav-item" on:click={toggleTheme} aria-label="Basculer le mode">
-                {#if darkMode}
-                    <i class="bi bi-sun" ></i>
-                {:else}
-                    <i class="bi bi-moon icon-moon"></i>
-                {/if}
+            <button type="button" class="btn btn-link text-light nav-item no-focus" on:click={toggleTheme} aria-label="Basculer le mode">
+                <i class="bi {darkMode ? 'bi-sun' : 'bi-moon icon-moon'}"></i>
             </button>
         </div>
     </nav>

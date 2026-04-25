@@ -2,8 +2,18 @@
     import {onMount} from "svelte";
     import {base} from "$app/paths";
 
-    onMount(() => {
+    const tableauImages =
+        [
+            "/realisations/auMontDieu/festivalAMD1.webp",
+            "/realisations/auMontDieu/festivalAMD2.webp",
+            "/realisations/auMontDieu/festivalAMD3.webp",
+            "/realisations/auMontDieu/festivalAMD4.webp",
+            "/realisations/auMontDieu/festivalAMD5.webp"
+        ];
 
+    let indexActuel = 0;
+
+    onMount(() => {
         const sections = document.querySelectorAll('.section')
         sections.forEach(section => {
             setTimeout(() => {
@@ -11,18 +21,13 @@
             }, 100);
         });
 
+        // Précharger les images
+        tableauImages.forEach(chemin => {
+            const img = new Image();
+            img.src = `${base}${chemin}`;
+        });
     });
 
-    const tableauImages =
-        [
-            "/realisations/auMontDieu/festivalAMD1.png",
-            "/realisations/auMontDieu/festivalAMD2.png",
-            "/realisations/auMontDieu/festivalAMD3.png",
-            "/realisations/auMontDieu/festivalAMD4.png",
-            "/realisations/auMontDieu/festivalAMD5.png"
-        ]
-
-    let indexActuel = 0;
     function allerA(i) {
         indexActuel = i;
     }

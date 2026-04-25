@@ -1,9 +1,15 @@
 <script>
-    import {onMount} from "svelte"
-    import {base} from "$app/paths"
+    import {onMount} from "svelte";
+    import {base} from "$app/paths";
+
+    const tableauImages =
+        [
+            "/realisations/certification/dossierDeCertification1.webp"
+        ];
+
+    let indexActuel = 0;
 
     onMount(() => {
-
         const sections = document.querySelectorAll('.section')
         sections.forEach(section => {
             setTimeout(() => {
@@ -11,14 +17,14 @@
             }, 100);
         });
 
+        // Précharger les images
+        tableauImages.forEach(chemin => {
+            const img = new Image();
+            img.src = `${base}${chemin}`;
+        });
     });
 
-    const tableauImages =
-        [
-            "/realisations/certification/dossierDeCertification1.png"
-        ]
 
-    let indexActuel = 0;
     function allerA(i) {
         indexActuel = i;
     }

@@ -24,8 +24,7 @@
     </div>
     <div class="glass section rightSections text-center p-3 d-flex align-items-center justify-content-center flex-column">
         <h3 class="text-center p-3">Je suis Syméon Vachot, futur développeur informatique.</h3>
-<!--        <p>Vous ne vous êtes pas retrouvés sur mon portfolio par hasard, alors commencons au plus vite !<br>-->
-        <p>Réorienté depuis peu au sein du BTS SIO de l'Institution des Chartreux, j'aspire à devenir développeur.
+        <p>Réorienté depuis 2 ans au sein du BTS SIO de l'Institution des Chartreux, j'aspire à devenir développeur.
         Je présente ici mes différentes créations et travaux, mon parcours, mes passions...
         </p>
     </div>
