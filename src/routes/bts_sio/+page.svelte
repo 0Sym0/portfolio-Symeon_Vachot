@@ -28,12 +28,11 @@
         { type: 'row', label: "Dossier de certification", url: "/preuves/DossierCertification.pdf", values: [false, false, false, false, false, true] },
         { type: 'row', label: "Développement de présence en ligne", url: "/preuves/PresenceEnLigne_Immersicorp.pdf", values: [false, false, true, false, false, false] },
         { type: 'row', label: "Développement de l'application ResAppli", url: "/preuves/Application_ResAppli.pdf", values: [true, false, false, true, false, false] },
-        { type: 'row', label: "PPE n°1 : Application web SAAS de gestion  d'établissement scolaire", url: "/preuves/Application_ResAppli.pdf", values: [false, true, false, false, false, false] },
-        { type: 'row', label: "PPE n°2 : Gestionnaire d'inventaire pour pharmacie", url: "/preuves/Application_ResAppli.pdf", values: [false, false, false, true, false, false] },
+        { type: 'row', label: "PPE n°1 : Application web SAAS de gestion  d'établissement scolaire", url: "/preuves/PPEWEB_Gestion_ETB_Scolaire.pdf", values: [false, true, false, false, false, false] },
         { type: 'section', label: 'Projets durant le stage de première année' },
         { type: 'row', label: "Application web npsa-ng", url: "/preuves/Application_NPSA-NG.pdf", values: [false, false, false, false, true, false] },
         { type: 'section', label: 'Projets durant le stage de seconde année' },
-        { type: 'row', label: "Application web Socle LUMI", url: "/preuves/Application_NPSA-NG.pdf", values: [true, false, false, true, false, false] }
+        { type: 'row', label: "Application web Socle LUMI", url: "/preuves/Application_Socle_LUMI.pdf", values: [true, false, false, true, false, false] }
         ]
 </script>
 

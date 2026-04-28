@@ -58,6 +58,12 @@
                     <img src="{base}/realisations/npsa-ng/NPSA-NG1.webp" class="w-100">
                 </div>
             </a>
+            <a href="{base}/realisations/applicationWebLumi" class="glass element projet d-flex align-items-center justify-content-center flex-column gap-3 p-4">
+                <h3 class="text-center">Fonctionnnalité de tracking application LUMI</h3>
+                <div>
+                    <img src="{base}/realisations/lumi/lumi1.webp" class="w-100">
+                </div>
+            </a>
         </div>
     </div>
 </div>

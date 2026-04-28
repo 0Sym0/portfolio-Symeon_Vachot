@@ -17,6 +17,7 @@
 <svelte:head>
     <meta name="description" content="A FAIRE">
 </svelte:head>
+
 <h1 class="glass section topSections text-center">Bonjour, et bienvenue sur mon portfolio&nbsp;!</h1>
 <div class="containerPresentation d-flex align-items-center justify-content-center flex-row gap-3">
     <div class="glass section leftSections text-center p-3 d-flex align-items-center justify-content-center flex-column">
@@ -42,7 +43,7 @@
     }
 
     img {
-        width: 300px;
+        width: 250px;
         margin-bottom: 1rem;
     }
 
@@ -52,7 +53,7 @@
             text-align: center;
         }
         img {
-            width: 250px;
+            width: 200px;
         }
     }
 
@@ -63,7 +64,7 @@
         }
 
         img {
-            width: 200px;
+            width: 150px;
         }
     }
 </style>

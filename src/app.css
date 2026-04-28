@@ -2,7 +2,7 @@
    VARIABLES GLOBALES
    ============================== */
 :root {
-    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-bg: rgba(255, 255, 255, 0.2     );
     --glass-border: rgba(255, 255, 255, 0.3);
     --shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
@@ -10,6 +10,12 @@
 /* ==============================
    BODY / THEMES
    ============================== */
+
+body.home-locked {
+    height: 100vh;
+    overflow: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--bg);
