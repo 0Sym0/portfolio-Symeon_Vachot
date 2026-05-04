@@ -61,8 +61,8 @@
             L'objectif principal de ce projet était de faire de ce socle une application blanche,
             réutilisable pour l'ensemble des futurs projets d'EDF, avec une mise en place concrète des
             bonnes pratiques de développement et d'architectures logicielles strictes.
-            Dans ce contexte, ma mission initiale consiste à concevoir et implémenter un "tracker" (suivi)
-            d'usage et de performance. Ce dernier devait être appliqué à d’autres classes ou
+            Dans ce contexte, ma mission initiale consistait à concevoir et implémenter un "tracker" (suivi)
+            d'usage et de performance. Ce dernier devait être appliquable à d’autres classes ou
             méthodes avec le moins de code possible.
         </p>
     </div>

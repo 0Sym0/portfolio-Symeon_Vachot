@@ -8,7 +8,7 @@
 
 <footer class="container glass d-flex align-items-center justify-content-between px-3 py-2 my-3">
 <div>
-    <a href="{base}/terms&conditions">&copy; Syméon Vachot 2025</a>
+    <a href="{base}/terms&conditions">&copy; Syméon Vachot 2026</a>
 </div>
 <div class="socialMedias d-flex align-items-center justify-content-center flex-rows gap-2">
     <a href="{base}/CV_Vachot_Symeon.pdf" class="glass hover:bg-opacity-20 hover:backdrop-blur-none" target="_blank">CV</a>

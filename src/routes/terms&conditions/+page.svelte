@@ -16,7 +16,7 @@
 
 <div class="glass section bottomSections p-3">
     <h2 class="my-3">Copyright</h2>
-    <p>&copy; 2025 Syméon Vachot. Tous droits réservés.</p>
+    <p>&copy; 2026 Syméon Vachot. Tous droits réservés.</p>
     <h2 class="my-3">Réutilisation</h2>
     <p>
         L’ensemble des éléments présents sur ce portfolio (structure, design, textes, code et médias) est protégé par le droit d’auteur et le droit de la propriété intellectuelle.

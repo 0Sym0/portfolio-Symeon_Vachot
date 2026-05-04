@@ -18,7 +18,7 @@
         <div class="glass section leftSections p-3 mx-auto" style="grid-row:1/2; grid-column:1/2;">
             <h2>Ingénieur ICS</h2>
             <h3>Informatique et Cybersécurité</h3>
-            <p>Poursuite du cursus du BTS SIO. Formation en cybersécurité, tratement de données et DevOps. </p>
+            <p>Poursuite du cursus du BTS SIO. Formation en cybersécurité, traitement de données et DevOps. </p>
             <i class="mt-1">CPE Lyon - Villeurbanne (69), France</i>
         </div>
         <div class="glass section rightSections p-3 mx-auto" style="grid-row:2/3; grid-column:3/4;">
